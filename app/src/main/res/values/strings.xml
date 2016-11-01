@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoMovilesI</string>
+    <string name="app_name">LearnApp</string>
+    <string name="_Nivel1">Nivel 1</string>
+    <string name="NIVELES">Seleccionar Nivel</string>
 </resources>
