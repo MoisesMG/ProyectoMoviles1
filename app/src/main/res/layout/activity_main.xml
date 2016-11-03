@@ -22,26 +22,18 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_help_black_48dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="245dp"
+            android:layout_marginLeft="15dp"
             />
         <Button
             android:id="@+id/Opcion1"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_looks_one_black_48dp"
-            android:layout_marginRight="25dp"/>
-        <Button
-            android:id="@+id/Opcion2"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="@drawable/ic_looks_two_black_48dp"
-            android:layout_marginRight="25dp"/>
-        <Button
-            android:id="@+id/Opcion3"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="@drawable/ic_looks_3_black_48dp"
-            android:layout_marginRight="25dp"/>
+            android:layout_marginRight="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/Button1" />
+
 
     </Toolbar>
 
@@ -100,5 +92,7 @@
         android:layout_marginTop="15dp"
         android:layout_below="@+id/ToolbarOpciones"
         android:layout_centerHorizontal="true" />
+
+
 
 </RelativeLayout>

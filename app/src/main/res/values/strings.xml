@@ -10,4 +10,9 @@
     <string name="Tema3">Tema 3</string>
     <string name="_Tema2">Tema 2</string>
     <string name="_Tema1">Tema 1</string>
+    <string name="Leccion">Seleccionar Leccion</string>
+    <string name="Leccion1">Leccion 1</string>
+    <string name="Leccion2">Leccion 2</string>
+    <string name="Leccion3">Leccion 3</string>
+    <string name="Leccion4">Leccion 4</string>
 </resources>

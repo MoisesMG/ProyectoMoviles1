@@ -7,34 +7,49 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class ActivityTema extends AppCompatActivity {
+public class ActivityLeccion extends AppCompatActivity {
     Button Bopc1;
     Button Bopc2;
+    Button Bopc3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tema);
+        setContentView(R.layout.activity_leccion);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Button Bopc1= (Button) findViewById(R.id.Opcion1T);
+        Button Bopc1= (Button) findViewById(R.id.Opcion1L);
         Bopc1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent (ActivityTema.this, MainActivity.class);
+                Intent intent= new Intent(ActivityLeccion.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button Bopc2= (Button) findViewById(R.id.Opcion2L);
+        Bopc2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(ActivityLeccion.this, ActivityTema.class);
                 startActivity(intent);
             }
         });
 
-        Button Bopc2= (Button) findViewById(R.id.Opcion2T);
+        Button Bopc3= (Button) findViewById(R.id.Opcion3L);
         Bopc2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(ActivityTema.this, ActivityTema.class);
-                startActivity(intent1);
+                Intent intent= new Intent(ActivityLeccion.this, ActivityLeccion.class);
+                startActivity(intent);
             }
         });
 
     }
+
+
+
+
+
 
 
     @Override
