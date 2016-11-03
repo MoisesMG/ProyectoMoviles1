@@ -2,4 +2,12 @@
     <string name="app_name">LearnApp</string>
     <string name="_Nivel1">Nivel 1</string>
     <string name="NIVELES">Seleccionar Nivel</string>
+    <string name="_Nivel2">Nivel 2</string>
+    <string name="_Nivel3">Nivel 3</string>
+    <string name="_Nivel4">Nivel 4</string>
+    <string name="Tema">Seleccionar Tema</string>
+    <string name="_Tema4">Tema 4</string>
+    <string name="Tema3">Tema 3</string>
+    <string name="_Tema2">Tema 2</string>
+    <string name="_Tema1">Tema 1</string>
 </resources>

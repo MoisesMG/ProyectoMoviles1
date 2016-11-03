@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_tema"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
@@ -9,35 +9,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.moises.proyectomovilesi.MainActivity">
+    tools:context="com.example.moises.proyectomovilesi.ActivityTema">
 
     <Toolbar
-        android:id="@+id/ToolbarOpciones"
+        android:id="@+id/ToolbarOpcionesT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/actionbar">
 
         <Button
-            android:id="@+id/Ayuda"
+            android:id="@+id/AyudaT"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_help_black_48dp"
             android:layout_marginRight="30dp"
             />
         <Button
-            android:id="@+id/Opcion1"
+            android:id="@+id/Opcion1T"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_looks_one_black_48dp"
             android:layout_marginRight="25dp"/>
         <Button
-            android:id="@+id/Opcion2"
+            android:id="@+id/Opcion2T"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_looks_two_black_48dp"
             android:layout_marginRight="25dp"/>
         <Button
-            android:id="@+id/Opcion3"
+            android:id="@+id/Opcion3T"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@drawable/ic_looks_3_black_48dp"
@@ -45,60 +45,60 @@
 
     </Toolbar>
 
-    <Button
-        android:id="@+id/Button1"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/_Nivel1"
-        android:textColor="@color/blanco"
-        android:background="@color/botones"
-        android:layout_below="@+id/Niveles"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp" />
-
-    <Button
-        android:id="@+id/Button2"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/_Nivel2"
-        android:textColor="@color/blanco"
-        android:background="@color/botones"
-        android:layout_below="@+id/Button1"
-        android:layout_alignStart="@+id/Button1"
-        android:layout_marginTop="35dp" />
-
-    <Button
-        android:id="@+id/Button3"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/_Nivel3"
-        android:textColor="@color/blanco"
-        android:background="@color/botones"
-        android:layout_marginTop="35dp"
-        android:layout_below="@+id/Button2"
-        android:layout_alignStart="@+id/Button2" />
-
-    <Button
-        android:id="@+id/Button4"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/_Nivel4"
-        android:textColor="@color/blanco"
-        android:background="@color/botones"
-        android:layout_below="@+id/Button3"
-        android:layout_alignStart="@+id/Button3"
-        android:layout_marginTop="35dp" />
-
     <TextView
-        android:id="@+id/Niveles"
+        android:id="@+id/Temas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/NIVELES"
+        android:text="@string/Tema"
         android:textColor="@color/blanco"
         android:maxHeight="500dp"
         android:maxWidth="500dp"
         android:layout_marginTop="15dp"
-        android:layout_below="@+id/ToolbarOpciones"
+        android:layout_below="@+id/ToolbarOpcionesT"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ButtonT1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_Tema1"
+        android:textColor="@color/blanco"
+        android:background="@color/botones"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/Temas"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ButtonT2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_Tema2"
+        android:textColor="@color/blanco"
+        android:background="@color/botones"
+        android:layout_below="@+id/ButtonT1"
+        android:layout_marginTop="35dp"
+        android:layout_alignStart="@+id/ButtonT1" />
+
+    <Button
+        android:id="@+id/ButtonT3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Tema3"
+        android:textColor="@color/blanco"
+        android:background="@color/botones"
+        android:layout_below="@+id/ButtonT2"
+        android:layout_marginTop="35dp"
+        android:layout_alignStart="@+id/ButtonT2" />
+
+    <Button
+        android:id="@+id/ButtonT4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/_Tema4"
+        android:textColor="@color/blanco"
+        android:background="@color/botones"
+        android:layout_below="@+id/ButtonT3"
+        android:layout_alignStart="@+id/ButtonT3"
+        android:layout_marginTop="35dp" />
 
 </RelativeLayout>
